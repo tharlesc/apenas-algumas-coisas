@@ -1,6 +1,6 @@
 # apenas-algumas-coisas
 
-![CODANDO]([https://caminho-do-gif.com/exemplo.gif](https://br.pinterest.com/pin/157133474493784394/))
+![CODANDO](.gif/que no falte.gif)
 
 
 ## 📌 Repositório de Testes e Aprendizado
