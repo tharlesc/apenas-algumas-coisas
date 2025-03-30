@@ -44,4 +44,3 @@ Este repositório é apenas para fins de aprendizado e não possui uma licença 
 ---
 
 🚀 **Divirta-se aprendendo e testando!**
->>>>>>> 483ba91 (Update README.md)
