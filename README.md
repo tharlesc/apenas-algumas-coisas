@@ -1,4 +1,8 @@
 # apenas-algumas-coisas
+
+![CODANDO]([https://caminho-do-gif.com/exemplo.gif](https://br.pinterest.com/pin/157133474493784394/))
+
+
 ## 📌 Repositório de Testes e Aprendizado
 
 Este repositório foi criado para fins de teste e aprendizado, permitindo a experimentação com código, conceitos e práticas de desenvolvimento.
