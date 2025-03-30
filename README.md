@@ -43,4 +43,4 @@ Este repositório é apenas para fins de aprendizado e não possui uma licença 
 
 ---
 
-🚀 **Divirta-se aprendendo e testando!**
+🚀 **Me divertindo aprendendo e testando!**
