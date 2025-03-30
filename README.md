@@ -1,6 +1,6 @@
 # apenas-algumas-coisas
 
-![CODANDO](.gif/que no falte.gif)
+![CODANDO](.gif/que_no_falte.gif)
 
 
 ## 📌 Repositório de Testes e Aprendizado
