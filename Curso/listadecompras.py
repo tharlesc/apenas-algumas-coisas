@@ -1,3 +1,6 @@
+from decorator import append
+
+
 def lista_compras():
     while True:
         print("1. Exibir Lista de compras")
@@ -17,7 +20,14 @@ def lista_compras():
             continue
 
         if escolha == '1':
-            print(lista_completa)
+            for item in lista_completa:
+                print(item)
+
+        if escolha == '2':
+            lista_completa.append(input("Adicone um item: "))
+            for cada in lista_completa:
+                print(cada)
+                continue
 
 
 
