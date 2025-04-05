@@ -1,7 +1,7 @@
-from decorator import append
-
-
 def lista_compras():
+
+    lista_completa = []
+
     while True:
         print("1. Exibir Lista de compras")
         print("2. Adicionar item à lista")
@@ -9,7 +9,6 @@ def lista_compras():
         print("4. Sair")
 
         escolha = input("Escolha uma opção: ")
-        lista_completa = []
 
         if escolha == 'S' or escolha == 's' or escolha == '4':
             print("Até a próxima!")
@@ -19,15 +18,35 @@ def lista_compras():
             print("Opão invalida, tente novamente!")
             continue
 
-        if escolha == '1':
-            for item in lista_completa:
-                print(item)
+        if escolha == '1': #ver lista
+            if not lista_completa:
+                print("Sua lista está vazia!")
+            else:
+                for indice, item in enumerate(lista_completa):
+                    print(indice, "-", item)
 
-        if escolha == '2':
+        if escolha == '2': #Adicionar item
+
             lista_completa.append(input("Adicone um item: "))
             for cada in lista_completa:
-                print(cada)
-                continue
+                print('Item adicionado: ', cada)
+                # if len(lista_completa) > '0':
+                #     print('Contém ', len(lista_completa), 'itens em sua lista')
+                # else:
+                #     print('Ops! Ainda não adicionou nenhum item!')
+
+        if escolha == '3': #retirar item
+            if not lista_completa:
+                print("Ops! Sua lista ainda está vazia!")
+            else:
+                for atual, coisas in enumerate(lista_completa):
+                    print(atual, '-', coisas)
+
+                    retirada = int(input("Digite o item que você deseja retirar: "))
+                    retirado = lista_completa.pop(retirada)
+                    print(f"O item '{retirado}' foi descartado!")
+
+
 
 
 
